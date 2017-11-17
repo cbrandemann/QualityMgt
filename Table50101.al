@@ -4,10 +4,15 @@ table 50101 "N154 Incident Entry"
     fields
     {
 
-        field(4;"Entry No.";Integer)
+        field(1;"Entry No.";Integer)
         {
         AutoIncrement=true;
-        CaptionML=ENU='Entry No.';
+        }
+        field(2;"Source Record ID";RecordId)
+        {
+        }
+        field(3;"Incident Area";Text[20])
+        {
         }
         
     }
