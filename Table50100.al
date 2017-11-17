@@ -9,7 +9,6 @@ table 50100 "N154 Setup"
         }
         field(2;"Automatic create measurements";Boolean)
         {
-            CaptionML=ENU='Code';
         }
         
     }

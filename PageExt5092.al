@@ -23,6 +23,14 @@ pageextension 50100 CustomerCardExtension extends "Customer Card"
                 Promoted = true;
                 ApplicationArea = All; 
             }
+            action("Show Greeting2")
+            {
+                RunObject = page "N154 Incident Entry List";
+                Image = CheckDuplicates;
+                PromotedCategory = Category8;
+                Promoted = true;
+                ApplicationArea = All; 
+            }            
         }
     }    
 }
